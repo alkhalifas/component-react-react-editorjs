@@ -4,42 +4,22 @@ export const data = {
             id: 'sheNwCUP5A',
             type: 'header',
             data: {
-                text: 'Editor.js',
-                level: 2,
+                text: 'Analysis of the Destabilization of Bacterial Membranes by Quaternary Ammonium Compounds: A Combined Experimental and Computational Study',
+                level: 1,
             },
         },
         {
             id: '12iM3lqzcm',
             type: 'paragraph',
             data: {
-                text: 'Hey. Meet the new Editor. On this page you can see it in action — try to edit this text.',
+                text: "<i>Saleh Alkhalifa, Connor Clancy</i>",
             },
         },
         {
             id: 'fvZGuFXHmK',
             type: 'header',
             data: {
-                text: 'Key features',
-                level: 3,
-            },
-        },
-        {
-            id: 'xnPuiC9Z8M',
-            type: 'list',
-            data: {
-                style: 'unordered',
-                items: [
-                    'It is a block-styled editor',
-                    'It returns clean data output in JSON',
-                    'Designed to be extendable and pluggable with a simple API',
-                ],
-            },
-        },
-        {
-            id: '-MhwnSs3Dw',
-            type: 'header',
-            data: {
-                text: 'What does it mean «block-styled editor»',
+                text: 'Abstract',
                 level: 3,
             },
         },
@@ -47,69 +27,71 @@ export const data = {
             id: 'Ptb9oEioJn',
             type: 'paragraph',
             data: {
-                text: 'Workspace in classic editors is made of a single contenteditable element, used to create different HTML markups. Editor.js <mark class="cdx-marker">workspace consists of separate Blocks: paragraphs, headings, images, lists, quotes, etc</mark>. Each of them is an independent contenteditable element (or more complex structure) provided by Plugin and united by Editor\'s Core.',
+                text: 'The mechanism of action of quaternary ammonium compound (QAC) antiseptics has long been assumed to be straightforward membrane disruption, although the process of approaching and entering the membrane has little modeling precedent. Furthermore, questions have more recently arisen regarding bacterial resistance mechanisms, and why select classes of QACs (specifically, multicationic QACs) are less prone to resistance. In order to better understand such subtleties, a series of molecular dynamics simulations were utilized to help identify these molecular determinants, directly comparing mono-, bis-, and triscationic QACs in simulated membrane intercalation models. Three distinct membranes were simulated, mimicking the surfaces of Escherichia coli and Staphylococcus aureus, as well as a neutral phospholipid control. By analyzing the resulting trajectories in the form of a timeseries analysis, insight was gleaned regarding the significant steps and interactions involved in the destabilization of phospholipid bilayers within the bacterial membranes. Finally, to more specifically probe the effect of the hydrophobic section of the amphiphile that presumably penetrates the membrane, a series of alkyl- and ester-based biscationic quaternary ammonium compounds were prepared, tested for antimicrobial activity against both Gram-positive and Gram-negative bacteria, and modeled.',
             },
         },
         {
-            id: '-J7nt-Ksnw',
-            type: 'paragraph',
-            data: {
-                text: 'There are dozens of <a href="https://github.com/editor-js">ready-to-use Blocks</a> and the <a href="https://editorjs.io/creating-a-block-tool">simple API</a> for creation any Block you need. For example, you can implement Blocks for Tweets, Instagram posts, surveys and polls, CTA-buttons and even games.',
-            },
-        },
-        {
-            id: 'SzwhuyoFq6',
+            id: '-MhwnSs3Dw',
             type: 'header',
             data: {
-                text: 'What does it mean clean data output',
+                text: 'Introduction',
                 level: 3,
             },
         },
         {
-            id: 'x_p-xddPzV',
+            id: 'Ptb9kEioJn',
             type: 'paragraph',
             data: {
-                text: 'Classic WYSIWYG-editors produce raw HTML-markup with both content data and content appearance. On the contrary, Editor.js outputs JSON object with data of each Block. You can see an example below',
+                text: 'The mechanism of action of quaternary ammonium compound (QAC) antiseptics has long been assumed to be straightforward membrane disruption, although the process of approaching and entering the membrane has little modeling precedent. Furthermore, questions have more recently arisen regarding bacterial resistance mechanisms, and why select classes of QACs (specifically, multicationic QACs) are less prone to resistance. In order to better understand such subtleties, a series of molecular dynamics simulations were utilized to help identify these molecular determinants, directly comparing mono-, bis-, and triscationic QACs in simulated membrane intercalation models. Three distinct membranes were simulated, mimicking the surfaces of Escherichia coli and Staphylococcus aureus, as well as a neutral phospholipid control. By analyzing the resulting trajectories in the form of a timeseries analysis, insight was gleaned regarding the significant steps and interactions involved in the destabilization of phospholipid bilayers within the bacterial membranes. Finally, to more specifically probe the effect of the hydrophobic section of the amphiphile that presumably penetrates the membrane, a series of alkyl- and ester-based biscationic quaternary ammonium compounds were prepared, tested for antimicrobial activity against both Gram-positive and Gram-negative bacteria, and modeled.',
             },
         },
         {
-            id: '6W5e6lkub-',
+            id: "9kuvpGz27v",
+            type: "image",
+            data: {
+                "url": "https://chemistry-europe.onlinelibrary.wiley.com/cms/asset/a73ae5ef-7b6d-4a1b-bec4-95212f0c4ce4/cbic201900698-toc-0001-m.jpg",
+                "caption": "Figure 1: Diagram of the membrane",
+                "withBorder": true,
+                "withBackground": true,
+                "stretched": false
+            }
+        },
+        {
+            id: 'Ptb9kEioJa',
             type: 'paragraph',
             data: {
-                text: 'Given data can be used as you want: render with HTML for <code class="inline-code">Web clients</code>, render natively for <code class="inline-code">mobile apps</code>, create markup for <code class="inline-code">Facebook Instant Articles</code> or <code class="inline-code">Google AMP</code>, generate an <code class="inline-code">audio version</code> and so on.',
+                text: 'The mechanism of action of quaternary ammonium compound (QAC) antiseptics has long been assumed to be straightforward membrane disruption, although the process of approaching and entering the membrane has little modeling precedent. Furthermore, questions have more recently arisen regarding bacterial resistance mechanisms, and why select classes of QACs (specifically, multicationic QACs) are less prone to resistance. In order to better understand such subtleties, a series of molecular dynamics simulations were utilized to help identify these molecular determinants, directly comparing mono-, bis-, and triscationic QACs in simulated membrane intercalation models. Three distinct membranes were simulated, mimicking the surfaces of Escherichia coli and Staphylococcus aureus, as well as a neutral phospholipid control. By analyzing the resulting trajectories in the form of a timeseries analysis, insight was gleaned regarding the significant steps and interactions involved in the destabilization of phospholipid bilayers within the bacterial membranes. Finally, to more specifically probe the effect of the hydrophobic section of the amphiphile that presumably penetrates the membrane, a series of alkyl- and ester-based biscationic quaternary ammonium compounds were prepared, tested for antimicrobial activity against both Gram-positive and Gram-negative bacteria, and modeled.',
             },
         },
         {
-            id: 'eD2kuEfvgm',
-            type: 'paragraph',
+            id: "CxfXv_EbX6",
+            type: "alert",
             data: {
-                text: 'Clean data is useful to sanitize, validate and process on the backend.',
-            },
+                "type": "danger",
+                "message": "Please split this sentence in two."
+            }
         },
         {
-            id: 'N8bOHTfUCN',
-            type: 'delimiter',
-            data: {},
-        },
-        {
-            id: 'IpKh1dMyC6',
-            type: 'paragraph',
+            id: "NK9XnjKGVk",
+            type: "code",
             data: {
-                text: "We have been working on this project more than three years. Several large media projects help us to test and debug the Editor, to make it's core more stable. At the same time we significantly improved the API. Now, it can be used to create any plugin for any task. Hope you enjoy. 😏",
-            },
+                "code": "import pandas as pd\nimport numpy as np\n\ndf = pd.read_csv(\"something.csv\")"
+            }
         },
         {
-            id: 'FF1iyF3VwN',
-            type: 'image',
+            id: "w4sqeBMWXF",
+            type: "paragraph",
             data: {
-                file: {
-                    url: 'https://codex.so/public/app/img/external/codex2x.png',
-                },
-                caption: '',
-                withBorder: false,
-                stretched: false,
-                withBackground: false,
-            },
+                "text": "[3]"
+            }
         },
+        {
+            id: "O390E59EuI",
+            type: "math",
+            data: {
+                "text": "equation:f(x) = 2x^2 +5"
+            }
+        }
+
     ]
 }

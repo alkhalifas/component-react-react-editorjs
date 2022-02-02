@@ -8,7 +8,7 @@ export default class ReactEditor extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            title: "Bain Editor"
+            title: "Recursiv Editor",
         }
     }
 
